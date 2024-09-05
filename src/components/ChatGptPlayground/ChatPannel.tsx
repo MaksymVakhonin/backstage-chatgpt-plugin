@@ -291,7 +291,7 @@ export const ChatPannel = ({onSubmit, resetForm, loading, isSuccess}: FormProps)
 		</div>
 		<div className="messages">
 			{/*uncomment it to see markdown example: */}
-			{/*	<MarkdownContent content={markdown} />*/}
+				<MarkdownContent content={markdown} />
 			{state.messages?.length > 0 && state.isChatStarted && state.messages.map(message => {
 				return <Message key={message.content} role={message.role} content={message.content} />
 			})}
