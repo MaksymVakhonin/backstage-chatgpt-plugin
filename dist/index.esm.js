@@ -13,7 +13,7 @@ const chatgptFrontendPlugin = createPlugin({
 const ChatGPTFrontendPage = chatgptFrontendPlugin.provide(
   createRoutableExtension({
     name: "ChatGPTFrontendPage",
-    component: () => import('./esm/index-f480f1d3.esm.js').then((m) => m.ChatGPTPage),
+    component: () => import('./esm/index-e492db95.esm.js').then((m) => m.ChatGPTPage),
     mountPoint: rootRouteRef
   })
 );
